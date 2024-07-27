@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(188, 208, 214);
+    font-family: '微軟正黑體', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.banner {
+    width: 300px;
+    display: inline-block;
+    background-color: burlywood;
+    color: darkgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin: 12px;
+    padding: 6px 12px;
+}
+
+#title {
+    background-color: bisque;
+    color: rgb(2, 0, 128);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    margin: 2px 12px 24px 36px;
+    margin-top: 64px;
+    padding: 12px;
+    text-align: center;
+}
+
+.tentip {
+    background-color: azure;
+    margin: 6px 300px;
+    text-align: left;
+    padding: 12px;
+    border: 1px black solid;
+}
+
+.slogan {
+    background-color: rgb(231, 163, 214);
+    font-size: 24px;
+}
+
+#bmi-table {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(225, 233, 157);
+    margin: 0 auto;
+}
+
+#bmi-table thead {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+#bmi-table th {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#bmi-table tbody {
+    background-color: brown;
+    font-family: '標楷體', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
