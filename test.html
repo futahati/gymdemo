@@ -1,16 +1,68 @@
-<h1>川普一句話變禮物！台積電周增8萬股東進場撿鑽石</h1>
-<hr size="10">
-陳依旻｜Yahoo財經特派記者<br>
-更新時間： 2024年7月20日 週六 下午12:00
-<p>川普一句話，台積電（2330）股價連日跌，8萬多股民看到股價不到千元，
-    進場「彎腰撿鑽石」，推升台積電最新股民數衝破133萬人，創逾一年新高。</p>
-<p>
-    <img src="https://s.yimg.com/ny/api/res/1.2/sDy93sI0pg2Y59LleAt7eQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTYzMztjZj13ZWJw/https://media.zenfs.com/ko/newtalk.tw/36706c9b1c32b7de9757c33f1d4012bb"
-        alt="">
-</p>
-<p><a href="https://tw.stock.yahoo.com/news/川普一句話變禮物！台積電周增8萬股東進場撿鑽石-031358214.html">來源出處</a></p>
+<!DOCTYPE html>
+<html lang="zh-Hant">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Demo</title>
+</head>
 
-<br>
-<!-- 新增 YouTube 連結-->
-<a href="https://www.youtube.com/?app=desktop&hl=zh-tw">YouTube</a>
+<body>
+    <h1>Hello! JavaScript</h1>
+
+    <script>
+        let x = 10;
+        let y = 20;
+        const PI = 3.1415926;
+        x = 20;
+        let z = x + y;
+        console.log(z);
+        console.log(x - y);
+
+        /**
+         * prompt →提示輸入
+         * log    →輸出
+         * 字串可與數值進行運算
+         * 使用 let →進行變數宣告
+         * typeof →觀察變數型態
+         */
+
+        //取得圓面積邏輯
+        /**
+        let radius = prompt("請輸入半徑：10"); //prompt = python的input
+        let radius = 5;
+        console.log(typeof (radius)); //prompt後皆為「string」，javascript 轉成數值後接著計算。
+        let area = radius ** 2 * PI;
+        const result = "半徑為：" + radius + "／面積為：" + area; //可直接「字串」+變數
+        console.log(result);
+        document.write(result); //顯示在網頁上
+        alert(result);
+        */
+
+        /**
+         * 程式練習：計算BMI
+         * 讓使用者可以輸入：姓名／身高／體重
+         * 計算 BMI
+         * 使用 document.write 輸入姓名、BMI
+         */
+
+        let name = prompt("請輸入姓名：");
+        let height = prompt("請輸入身高：");
+        let weight = prompt("請輸入體重：");
+
+        let bmi = weight / (height / 100) ** 2;
+        console.log(name, height, weight, bmi);
+
+        //document.write("<h1>"+name+"</h1>")
+        document.write(`<h1>${name}</h1>`);
+        document.write(`<li>身高：${height}</li>`);
+        document.write(`<li>體重：${weight}</li>`);
+        document.write(`<li>BMI：${bmi.toFixed(2)}</li>`);
+
+        document.write("<br>" + name + " → BMI:" + bmi.toFixed(2));
+
+    </script>
+
+</body>
+
+</html>
